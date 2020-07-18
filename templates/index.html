@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>AQI Preiction</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="row">
+  <div class="column" ">
+	<br>
+	<br>
+	<br>
+	<br>
+<br>
+	<h2 align=center>Mumbai</h2>
+    <h2 align=center>Air Quality Index</h2>
+  </div>
+
+
+
+
+  <div class="column" >
+    <form action="{{ url_for('predict')}}"method="post">
+    	<form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="T" placeholder="T -- Average Temperature (°C)" required="required" />
+        <input type="text" name="TM" placeholder="TM -- Maximum temperature (°C)" required="required" />
+		<input type="text" name="Tm" placeholder="Tm -- Minimum temperature (°C)" required="required" />
+		<input type="text" name="SLP" placeholder="SLP -- Atmospheric pressure at sea level (hPa)" required="required" />
+		<input type="text" name="H" placeholder="H -- Average relative humidity (%)" required="required" />
+		<input type="text" name="VV" placeholder="VV -- Average visibility (Km)" required="required" />
+		<input type="text" name="V" placeholder="V -- Average wind speed (Km/h)" required="required" />
+		<input type="text" name="VM" placeholder="VM -- Maximum sustained wind speed (Km/h)" required="required" />
+		
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+  </div>
+ 
+
+
+ <div class="column" >
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+
+    <h2>Prediction</h2>
+    {{ prediction_text }}
+  </div>
+</div>
+
+</body>
+</html>
