@@ -1,9 +1,9 @@
 # AirQualityIndex-Prediction
 
-# This project is developed for predicting the Air Quality Index for Mumbai Location
-# Prediction deployed on Heroku:- https://air-quality-index-mumbai-predi.herokuapp.com/
+### This project is developed for predicting the Air Quality Index for Mumbai Location
+### Prediction deployed on Heroku:- https://air-quality-index-mumbai-predi.herokuapp.com/
 
-# DataSet Collected from https://en.tutiempo.net/
+#### DataSet Collected from https://en.tutiempo.net/
 
 # Interpretation annual average climate values
 T	-- Average annual temperature
