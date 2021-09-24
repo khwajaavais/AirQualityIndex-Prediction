@@ -1,4 +1,4 @@
-<h1 id="air-quality-index-prediction">Air-Quality-Index-Prediction</h1>
+<h1 id="air-quality-index-prediction">Air Quality Index (AQI) Prediction</h1>
 
 **Demo: https://air-quality-index-mumbai-predi.herokuapp.com/**
 <br>
