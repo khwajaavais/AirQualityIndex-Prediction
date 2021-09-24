@@ -1,4 +1,7 @@
 <h1 id="air-quality-index-prediction">Air-Quality-Index-Prediction</h1>
+
+**Demo: https://air-quality-index-mumbai-predi.herokuapp.com/**
+
 <p>Webapp to predict the Air Quality Index of Mumbai region given climate conditions.</p>
 <p><strong>Motivation for this project</strong>:<br /><strong>Krish Naik's Air Quality Index Prediction Project</strong>: https://www.youtube.com/watch?v=CTu0qnuMxgA.<br /><strong>Code</strong>: https://github.com/krishnaik06/AQI-Project</p>
 <!--
@@ -14,7 +17,7 @@
 <li><strong>Model Deployment</strong>: (execute flask-app in project root, run the app.py file and hit http://127.0.0.1:5000/)<br />Used HTML-CSS frontend to make API calls to Flask REST API backend.<br />Finally deployed on Heroku platform.</li>
 </ol>
 <p>You can enter various climate details. Finally, click submit button and get your results for Air Quality Index.</p>
-<p><strong>Demo</strong>: https://air-quality-index-mumbai-predi.herokuapp.com/</p>
+**Demo: https://air-quality-index-mumbai-predi.herokuapp.com/**
 <p><strong>Screenshot</strong>:<br></p>
 <div class="figure" align="center">
 <img width="800" height="400" src="https://github.com/khwajaavais/AirQualityIndex-Prediction/blob/b9a11cfdbc015760a5c2c458db35d64e5bf0a12e/templates/AQI%20Index%201.png" alt="Screenshot" /><p class="caption"></p>
