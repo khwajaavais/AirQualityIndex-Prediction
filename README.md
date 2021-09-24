@@ -1,7 +1,7 @@
 <h1 id="air-quality-index-prediction">Air-Quality-Index-Prediction</h1>
 
 **Demo: https://air-quality-index-mumbai-predi.herokuapp.com/**
-
+<br>
 <p>Webapp to predict the Air Quality Index of Mumbai region given climate conditions.</p>
 <p><strong>Motivation for this project</strong>:<br /><strong>Krish Naik's Air Quality Index Prediction Project</strong>: https://www.youtube.com/watch?v=CTu0qnuMxgA.<br /><strong>Code</strong>: https://github.com/krishnaik06/AQI-Project</p>
 <!--
